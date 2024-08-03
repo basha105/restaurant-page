@@ -1,8 +1,3 @@
-export default function pageLoad() {
-
-    const title = document.createElement("div");
-    title.textContent = "Chez Gusteau";
-
-
-    return title;
+export function pageLoad() {
+    const 
 }
