@@ -1,4 +1,4 @@
-export default function myFunc() {
+export default function displayHome() {
     const container = document.createElement('div');
 
     const header = document.createElement('h1');
@@ -6,7 +6,7 @@ export default function myFunc() {
     container.appendChild(header);
 
     const header2 = document.createElement('h2');
-    header2.textContent = "The best of Paris"
+    header2.textContent = "The best of France"
     container.appendChild(header2);
 
     const para = document.createElement('h3');
@@ -17,4 +17,3 @@ export default function myFunc() {
     
     return container;
 }
-
