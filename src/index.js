@@ -1,6 +1,6 @@
 import displayHome from './home.js';
 import displayMenu from './menu.js';
-import displayAbout from './about.js'
+import displayAbout from './about.js';
 import './style.css'
 
 const contentContainer = document.getElementById('content');
